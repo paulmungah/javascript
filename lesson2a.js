@@ -16,3 +16,14 @@ console.log(person.Name)
 
 // Check the data type 
 console.log(typeof(person))
+
+// Array data types
+// This refers to collection of items that are on indexes
+fruits = ["Mango","Pineapple","Apple","Banana","Melon","Lemon","Grapes"]
+
+console.log("The entire array of fruits is :",fruits)
+// to access the items of an array we use the index 
+console.log(fruits[3])
+
+// you can slice items of an array
+console.log(fruits.slice(2,5))

@@ -14,3 +14,15 @@ function sayGoodbye(){
     console.log("Goog bye,have a nice day and a weekend ahead")
 }
 sayGoodbye()
+
+// Anonymous Functions - Functions without a name
+// Used as a callback - It does not need to be invoked
+setTimeout(function(){
+    console.log("Runs after 1 seconds");
+},1000);
+
+// can be stored in a variable
+const greet = function(){
+    console.log("Hello")
+}
+greet()
